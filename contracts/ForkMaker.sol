@@ -15,7 +15,7 @@ import "./Ownable.sol";
 // This contract handles "serving up" rewards for xSushi holders by trading tokens collected from fees for Sushi.
 
 // T1 - T4: OK
-contract SushiMaker is Ownable {
+contract ForkMaker is Ownable {
     using SafeMath for uint256;
     using SafeERC20 for IERC20;
 
